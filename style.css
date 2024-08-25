@@ -1,5 +1,5 @@
 :root {
-    --color_principal: rgb(88, 49, 49);
+    --color_principal: #583131;
     --bg-principal: rgb(224, 217, 217);
 }
 body {
@@ -21,8 +21,11 @@ body {
 .nav-link:hover {
     color: rgb(211, 198, 198);
 }
-a.navbar-brand {
-    color: rgb(88, 49, 49);
-    font-weight: 400;
+
+.btn-primary {
+    background-color: var(--color_principal);
+    border-color: var(--color_principal);
+}
+.imgIcon{
     padding-right: 3%;
 }
