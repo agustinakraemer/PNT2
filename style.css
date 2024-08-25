@@ -1,0 +1,28 @@
+:root {
+    --color_principal: rgb(88, 49, 49);
+    --bg-principal: rgb(224, 217, 217);
+}
+body {
+    background-color: var(--bg-principal);
+}
+
+.padding-30 {
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.bg-navbar {
+    background-color: rgb(161, 123, 123);
+    color: rgb(255, 255, 255);
+}
+.nav-link {
+    color: rgb(255, 255, 255);
+}
+.nav-link:hover {
+    color: rgb(211, 198, 198);
+}
+a.navbar-brand {
+    color: rgb(88, 49, 49);
+    font-weight: 400;
+    padding-right: 3%;
+}
